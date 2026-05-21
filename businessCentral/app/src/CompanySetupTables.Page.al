@@ -128,8 +128,9 @@ page 82565 "ADLSE Company Setup Tables"
                 var
                     ADLSETable: Record "ADLSE Table";
                 begin
-                    ADLSETable.Get(Rec."Table ID");
-                    ADLSETable.Delete(true);
+                    Rec.Delete(true);
+                    if ADLSETable.Get(Rec."Table ID") then
+                        ADLSETable.Delete(true);
                     CurrPage.Update();
                 end;
             }
