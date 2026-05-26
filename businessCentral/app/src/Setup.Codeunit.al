@@ -112,7 +112,6 @@ codeunit 82560 "ADLSE Setup"
             exit;
         if not ADLSESetup.Exists() then
             exit;
-        ADLSESetup.GetSingleton();
         ADLSESetup."Schema Exported On" := 0DT;
         ADLSESetup.Workspace := '';
         ADLSESetup.Lakehouse := '';
