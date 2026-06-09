@@ -1,0 +1,113 @@
+Select;Type;ID;;Name;Extends;Application;Version;Publisher
+;Xmlport;82560;;BC2ADLS Import;;Azure Data Lake Storage Export;27.51.0.0;The bc2adls team
+;Xmlport;82561;;BC2ADLS Export;;Azure Data Lake Storage Export;27.51.0.0;The bc2adls team
+;Table;1307;;O365 Device Setup Instructions;;Base Application;28.0.46665.50875;Microsoft
+;Table;1308;;O365 Getting Started Page Data;;Base Application;28.0.46665.50875;Microsoft
+;Table;1309;;O365 Getting Started;;Base Application;28.0.46665.50875;Microsoft
+;Table;1311;;Last Used Chart;;Base Application;28.0.46665.50875;Microsoft
+;Table;2114;;O365 HTML Template;;Base Application;28.0.46665.50875;Microsoft
+;Table;2119;;O365 Payment Service Logo;;Base Application;28.0.46665.50875;Microsoft
+;Table;2121;;O365 Brand Color;;Base Application;28.0.46665.50875;Microsoft
+;Table;2160;;Calendar Event;;Base Application;28.0.46665.50875;Microsoft
+;Table;2161;;Calendar Event User Config.;;Base Application;28.0.46665.50875;Microsoft
+;Table;5376;;CDS BC Table Relation;;Base Application;28.0.46665.50875;Microsoft
+;Table;5378;;Synth. Relation Mapping Buffer;;Base Application;28.0.46665.50875;Microsoft
+;Table;7880;;MS-QBD Setup;;Base Application;28.0.46665.50875;Microsoft
+;Table;82560;;ADLSE Setup;;Azure Data Lake Storage Export;27.51.0.0;The bc2adls team
+;Table;82561;;ADLSE Table;;Azure Data Lake Storage Export;27.51.0.0;The bc2adls team
+;Table;82562;;ADLSE Field;;Azure Data Lake Storage Export;27.51.0.0;The bc2adls team
+;Table;82563;;ADLSE Deleted Record;;Azure Data Lake Storage Export;27.51.0.0;The bc2adls team
+;Table;82564;;ADLSE Table Last Timestamp;;Azure Data Lake Storage Export;27.51.0.0;The bc2adls team
+;Table;82565;;ADLSE Current Session;;Azure Data Lake Storage Export;27.51.0.0;The bc2adls team
+;Table;82566;;ADLSE Run;;Azure Data Lake Storage Export;27.51.0.0;The bc2adls team
+;Table;82567;;ADLSE Enum Translation;;Azure Data Lake Storage Export;27.51.0.0;The bc2adls team
+;Table;82568;;ADLSE Enum Translation Lang;;Azure Data Lake Storage Export;27.51.0.0;The bc2adls team
+;Table;82569;;Deleted Tables Not to Sync;;Azure Data Lake Storage Export;27.51.0.0;The bc2adls team
+;Table;82570;;ADLSE Export Category;;Azure Data Lake Storage Export;27.51.0.0;The bc2adls team
+;Table;82571;;ADLSE Export Category Table;;Azure Data Lake Storage Export;27.51.0.0;The bc2adls team
+;Table;82572;;ADLSE Companies Table;;Azure Data Lake Storage Export;27.51.0.0;The bc2adls team
+;Table;82573;;ADLSE Sync Companies;;Azure Data Lake Storage Export;27.51.0.0;The bc2adls team
+;Table;82580;;Session Instruction;;Azure Data Lake Storage Export;27.51.0.0;The bc2adls team
+;Page;1305;;O365 Developer Welcome;;Base Application;28.0.46665.50875;Microsoft
+;Page;1306;;O365 Tour Complete;;Base Application;28.0.46665.50875;Microsoft
+;Page;1307;;O365 Getting Started Device;;Base Application;28.0.46665.50875;Microsoft
+;Page;1308;;O365 Device Setup;;Base Application;28.0.46665.50875;Microsoft
+;Page;1309;;O365 Getting Started;;Base Application;28.0.46665.50875;Microsoft
+;Page;1310;;O365 Activities;;Base Application;28.0.46665.50875;Microsoft
+;Page;1312;;Office 365 Credentials;;Base Application;28.0.46665.50875;Microsoft
+;Page;1320;;ExcelTemplateCompanyInfo;;Base Application;28.0.46665.50875;Microsoft
+;Page;2021;;Office Attachments;;Base Application;28.0.46665.50875;Microsoft
+;Page;2158;;O365 Brand Colors;;Base Application;28.0.46665.50875;Microsoft
+;Page;82560;;ADLSE Setup;;Azure Data Lake Storage Export;27.51.0.0;The bc2adls team
+;Page;82561;;ADLSE Setup Tables;;Azure Data Lake Storage Export;27.51.0.0;The bc2adls team
+;Page;82562;;ADLSE Setup Fields;;Azure Data Lake Storage Export;27.51.0.0;The bc2adls team
+;Page;82563;;ADLSE Run;;Azure Data Lake Storage Export;27.51.0.0;The bc2adls team
+;Page;82564;;Deleted Tables Not To Sync;;Azure Data Lake Storage Export;27.51.0.0;The bc2adls team
+;Page;82565;;ADLSE Company Setup Tables;;Azure Data Lake Storage Export;27.51.0.0;The bc2adls team
+;Page;82566;;ADLSE Company Setup;;Azure Data Lake Storage Export;27.51.0.0;The bc2adls team
+;Page;82569;;ADLSE Enum Translations;;Azure Data Lake Storage Export;27.51.0.0;The bc2adls team
+;Page;82570;;ADLSE Enum Translations Lang;;Azure Data Lake Storage Export;27.51.0.0;The bc2adls team
+;Page;82571;;ADLSE CurrentSession API;;Azure Data Lake Storage Export;27.51.0.0;The bc2adls team
+;Page;82572;;ADLSE Setup API v12;;Azure Data Lake Storage Export;27.51.0.0;The bc2adls team
+;Page;82573;;ADLSE Field API v12;;Azure Data Lake Storage Export;27.51.0.0;The bc2adls team
+;Page;82574;;ADLSE Run API v12;;Azure Data Lake Storage Export;27.51.0.0;The bc2adls team
+;Page;82575;;ADLSE Table API v12;;Azure Data Lake Storage Export;27.51.0.0;The bc2adls team
+;Page;82576;;ADLSE Assign Export Category;;Azure Data Lake Storage Export;27.51.0.0;The bc2adls team
+;Page;82577;;ADLSE Export Categories;;Azure Data Lake Storage Export;27.51.0.0;The bc2adls team
+;Report;82560;;ADLSE Seek Data;;Azure Data Lake Storage Export;27.51.0.0;The bc2adls team
+;Report;82561;;ADLSE Schedule Task Assignment;;Azure Data Lake Storage Export;27.51.0.0;The bc2adls team
+;Report;82562;;ADLSEScheduleMultiTaskAssign;;Azure Data Lake Storage Export;27.51.0.0;The bc2adls team
+;Codeunit;142;;EC Sales List Submit;;Base Application;28.0.46665.50875;Microsoft
+;Codeunit;1309;;O365 Getting Started Mgt.;;Base Application;28.0.46665.50875;Microsoft
+;Codeunit;1310;;O365 Activities Dictionary;;Base Application;28.0.46665.50875;Microsoft
+;Codeunit;1642;;Intelligent Info Manifest;;Base Application;28.0.46665.50875;Microsoft
+;Codeunit;1655;;Office Add-In Sample Emails;;Base Application;28.0.46665.50875;Microsoft
+;Codeunit;1883;;Sandbox Cleanup local;;Base Application;28.0.46665.50875;Microsoft
+;Codeunit;2103;;O365 Sales Cancel Invoice;;Base Application;28.0.46665.50875;Microsoft
+;Codeunit;2105;;O365 Sales Invoice Payment;;Base Application;28.0.46665.50875;Microsoft
+;Codeunit;2114;;O365 HTML Templ. Mgt.;;Base Application;28.0.46665.50875;Microsoft
+;Codeunit;2135;;O365 Setup Email;;Base Application;28.0.46665.50875;Microsoft
+;Codeunit;5050;;Opp. Bar Chart DrillDown;;Base Application;28.0.46665.50875;Microsoft
+;Codeunit;5369;;Manual Int Mapping Events;;Base Application;28.0.46665.50875;Microsoft
+;Codeunit;6700;;O365 Sync. Management;;Base Application;28.0.46665.50875;Microsoft
+;Codeunit;6702;;O365 Contact Sync. Helper;;Base Application;28.0.46665.50875;Microsoft
+;Codeunit;9192;;Company Creation Demo Data;;Base Application;28.0.46665.50875;Microsoft
+;Codeunit;9997;;Upgrade Tag Def - Country;;Base Application;28.0.46665.50875;Microsoft
+;Codeunit;82560;;ADLSE Setup;;Azure Data Lake Storage Export;27.51.0.0;The bc2adls team
+;Codeunit;82561;;ADLSE Execute;;Azure Data Lake Storage Export;27.51.0.0;The bc2adls team
+;Codeunit;82562;;ADLSE Communication;;Azure Data Lake Storage Export;27.51.0.0;The bc2adls team
+;Codeunit;82563;;ADLSE Http;;Azure Data Lake Storage Export;27.51.0.0;The bc2adls team
+;Codeunit;82564;;ADLSE Util;;Azure Data Lake Storage Export;27.51.0.0;The bc2adls team
+;Codeunit;82565;;ADLSE Credentials;;Azure Data Lake Storage Export;27.51.0.0;The bc2adls team
+;Codeunit;82566;;ADLSE CDM Util // Refer Common Data Model https://docs.microsoft.com/en-us/common-data-model/sdk/overview;;Azure Data Lake Storage Export;27.51.0.0;The bc2adls team
+;Codeunit;82567;;ADLSE;;Azure Data Lake Storage Export;27.51.0.0;The bc2adls team
+;Codeunit;82568;;ADLSE Gen 2 Util;;Azure Data Lake Storage Export;27.51.0.0;The bc2adls team
+;Codeunit;82569;;ADLSE Execution;;Azure Data Lake Storage Export;27.51.0.0;The bc2adls team
+;Codeunit;82570;;ADLSE Session Manager;;Azure Data Lake Storage Export;27.51.0.0;The bc2adls team
+;Codeunit;82571;;ADLSE Installer;;Azure Data Lake Storage Export;27.51.0.0;The bc2adls team
+;Codeunit;82572;;ADLSE Upgrade;;Azure Data Lake Storage Export;27.51.0.0;The bc2adls team
+;Codeunit;82573;;ADLSE Clear Tracked Deletions;;Azure Data Lake Storage Export;27.51.0.0;The bc2adls team
+;Codeunit;82574;;ADLSE External Events;;Azure Data Lake Storage Export;27.51.0.0;The bc2adls team
+;Codeunit;82575;;ADLSE UpgradeTagNewCompanySubs;;Azure Data Lake Storage Export;27.51.0.0;The bc2adls team
+;Codeunit;82576;;ADLSE External Events Helper;;Azure Data Lake Storage Export;27.51.0.0;The bc2adls team
+;Codeunit;82577;;ADLSE Wrapper Execute;;Azure Data Lake Storage Export;27.51.0.0;The bc2adls team
+;Codeunit;82578;;ADLSE Company Run;;Azure Data Lake Storage Export;27.51.0.0;The bc2adls team
+;Codeunit;82579;;ADLSE Multi Company Export;;Azure Data Lake Storage Export;27.51.0.0;The bc2adls team
+;Codeunit;82581;;ADLSE Method Imp. Undefined;ADLSE Session Method Interface;Azure Data Lake Storage Export;27.51.0.0;The bc2adls team
+;Codeunit;82582;;ADLSE Method Imp. IncFileName;ADLSE Session Method Interface;Azure Data Lake Storage Export;27.51.0.0;The bc2adls team
+;Codeunit;82583;;ADLSE Method Imp. RecLastTime;ADLSE Session Method Interface;Azure Data Lake Storage Export;27.51.0.0;The bc2adls team
+;Codeunit;104150;;UPG GB;;Base Application;28.0.46665.50875;Microsoft
+;Query;9153;;Non-Inventory Telemetry;;Base Application;28.0.46665.50875;Microsoft
+;Query;37015;;Inventory by Location;;Base Application;28.0.46665.50875;Microsoft
+;Profile;;;ORDER PROCESSOR;;Base Application;28.0.46665.50875;Microsoft
+;Profile;;;O365 SALES;;Base Application;28.0.46665.50875;Microsoft
+;ControlAddIn;;;Microsoft.Dynamics.Nav.Client.WebPageViewer;;System Application;28.0.46665.50632;Microsoft
+;ControlAddIn;;;Microsoft.Dynamics.Nav.Client.BusinessChart;;System Application;28.0.46665.50632;Microsoft
+;Enum;82560;;ADLSE Run State;;Azure Data Lake Storage Export;27.51.0.0;The bc2adls team
+;Enum;82561;;ADLSE Http Method;;Azure Data Lake Storage Export;27.51.0.0;The bc2adls team
+;Enum;82562;;ADLSE CDM Format;;Azure Data Lake Storage Export;27.51.0.0;The bc2adls team
+;Enum;82563;;ADLSE Storage Type;;Azure Data Lake Storage Export;27.51.0.0;The bc2adls team
+;Enum;82580;;ADLSE Process Type;;Azure Data Lake Storage Export;27.51.0.0;The bc2adls team
+;Enum;82581;;ADLSE Session Method;ADLSE Session Method Interface;Azure Data Lake Storage Export;27.51.0.0;The bc2adls team
+;EnumExtension;82560;;ADLSE EventCategory;EventCategory;Azure Data Lake Storage Export;27.51.0.0;The bc2adls team
+;Interface;"ADLSE;;Session Method Interface;;Azure Data Lake Storage Export;27.51.0.0;The bc2adls team

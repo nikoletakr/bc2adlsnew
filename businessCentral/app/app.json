@@ -42,6 +42,14 @@
       "id": "1a9249ee-60b8-4da4-9c8a-edea122adf7f"
     }
   ],
+  "dependencies": [
+    {
+      "id": "3c959f73-5fef-46ac-a8cf-0da8f7260611",
+      "name": "Binary Stream Inc License Management",
+      "publisher": "Binary Stream Software Inc.",
+      "version": "1.47.0.0"
+    }
+  ],
   "target": "Cloud",
   "runtime": "16.0"
 }
