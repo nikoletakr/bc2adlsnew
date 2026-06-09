@@ -99,8 +99,29 @@ table 82560 "ADLSE Setup"
 
             trigger OnValidate()
             begin
-                if Rec."Storage Type" = Rec."Storage Type"::"Open Mirroring" then
+                if Rec."Storage Type" = "ADLSE Storage Type"::"Open Mirroring" then
                     Rec."Delete Table" := true;
+                case Rec."Storage Type" of
+                    "ADLSE Storage Type"::"Azure Data Lake":
+                        begin
+                            Rec.Workspace := '';
+                            Rec.Lakehouse := '';
+                            Rec.LandingZone := '';
+                        end;
+                    "ADLSE Storage Type"::"Microsoft Fabric":
+                        begin
+                            Rec.LandingZone := '';
+                            Rec.Container := '';
+                            Rec."Account Name" := '';
+                        end;
+                    "ADLSE Storage Type"::"Open Mirroring":
+                        begin
+                            Rec.Workspace := '';
+                            Rec.Lakehouse := '';
+                            Rec.Container := '';
+                            Rec."Account Name" := '';
+                        end;
+                end;
             end;
         }
 
@@ -112,6 +133,8 @@ table 82560 "ADLSE Setup"
             var
                 ValidGuid: Guid;
             begin
+                if Rec."Storage Type" = "ADLSE Storage Type"::"Open Mirroring" then
+                    exit;
                 if not Evaluate(ValidGuid, Rec.Workspace) then
                     if (StrLen(Rec.Workspace) < 3) or (StrLen(Rec.Workspace) > 24)
                         or TextCharactersOtherThan(Rec.Workspace, 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890_')
@@ -127,6 +150,8 @@ table 82560 "ADLSE Setup"
             var
                 ValidGuid: Guid;
             begin
+                if Rec."Storage Type" = "ADLSE Storage Type"::"Open Mirroring" then
+                    exit;
                 if not Evaluate(ValidGuid, Rec.Lakehouse) then
                     if (StrLen(Rec.Lakehouse) < 3) or (StrLen(Rec.Lakehouse) > 24)
                         or TextCharactersOtherThan(Rec.Lakehouse, 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890_')
@@ -222,6 +247,26 @@ table 82560 "ADLSE Setup"
             Caption = 'Export Closing Date column';
             ToolTip = 'Specifies if you want to export the closing date column in G/L Entries.';
             InitValue = false;
+        }
+        field(85; "Use Primary Key for Mirroring"; Boolean)
+        {
+            Caption = 'Use Primary Key for Mirroring';
+            ToolTip = 'Specifies if the primary key fields of tables should be used as key columns in the Open Mirroring metadata instead of SystemId. Enable this if records are recreated with new SystemIds causing duplicates in the mirrored database.';
+            InitValue = false;
+
+        }
+        field(105; "Use Certificate Authentication"; Boolean)
+        {
+            Caption = 'Use Certificate Authentication';
+            ToolTip = 'Specifies if a certificate will be used for OAuth2 authentication instead of a client secret.';
+            InitValue = false;
+        }
+        field(110; "Distinguish Full Incremental"; Boolean)
+        {
+            Caption = 'Distinguish full and incremental exports';
+            ToolTip = 'Specifies whether the generated CSV file names in Azure Data Lake should be suffixed with _full or _incremental, so that downstream pipelines can differentiate between a full export (first run, or first run after a reset) and an incremental export. Only applies to the Azure Data Lake storage type.';
+            InitValue = false;
+            DataClassification = SystemMetadata;
         }
     }
 
